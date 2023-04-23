@@ -1,7 +1,17 @@
 \section{Activity 1}
 
+Firstly, let's calculate the score of each vulnerability, using a CVSS calculator. We'll call the first vector \texttt{V1} and the second vector \texttt{V2}.
 
 
+Both \texttt{V1} and \texttt{V2} have the exact same CVSS score of 8.1/10, but there are some key differences between them in some fields:
+\begin{itemize}
+    \item \textbf{Attack Vector:} From where the attack can happen. For \texttt{V1} it's Network level, meaning if both attacker and victim are connected through some type of network, the attack works. For \texttt{V2}, it's Adjacent, meaning they both have to be on the same network for the attack to work.
+    \item \textbf{Attack Complexity:} The difficulty of the attack, based mainly on the information about the target required. For \texttt{V1} it's Low, while for \texttt{V2} it's High.
+    \item \textbf{Availability Impact:} How much the attack affects the availability of the target. For \texttt{V1} it's High, while for \texttt{V2} it's none.
+\end{itemize}
+
+It's difficult to determine which vulnerability is riskier, as it will mainly depend on the system's specific characteristics, but overall, in my opinion, \texttt{V2} is riskier since its complexity is lower.\\
+It's true that an access to the direct network is needed, and it affects availability less than \texttt{V1}, but it stills highly affects confidentiality and integrity, meaning there are a lot of pottential attackers.
 
 \section{Activity 2}
 

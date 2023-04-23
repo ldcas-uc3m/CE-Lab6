@@ -19,3 +19,8 @@ Use [cvedetails.com](https://cvedetails.com) to browse through SQL injection vul
 1. What is the most common CVSS score for this type of vulnerability? What is the reason?
 2. Find two SQL injection vulnerabilities with a CVSS score different from the most common (one higher and one lower) and explain why the score is different in these cases.
 
+
+## More information
+- [Common Vulnerability Scoring System (CVSS) v3.0: Specification Document](https://www.first.org/cvss/v3.0/specification-document)
+- [CVSS 3.0 calculator](https://www.first.org/cvss/calculator/3.0)
+
