@@ -1,4 +1,4 @@
-\section{Activity 1}
+\section*{Activity 1}
 
 Firstly, let's calculate the score of each vulnerability, using a CVSS calculator. We'll call the first vector \texttt{V1} and the second vector \texttt{V2}.
 
@@ -13,6 +13,10 @@ Both \texttt{V1} and \texttt{V2} have the exact same CVSS score of 8.1/10, but t
 It's difficult to determine which vulnerability is riskier, as it will mainly depend on the system's specific characteristics, but overall, in my opinion, \texttt{V2} is riskier since its complexity is lower.\\
 It's true that an access to the direct network is needed, and it affects availability less than \texttt{V1}, but it stills highly affects confidentiality and integrity, meaning there are a lot of pottential attackers.
 
-\section{Activity 2}
-
+\section*{Activity 2}
+\begin{enumerate}
+    \item The most common CVSS score for SQL injection vulnerabilities is 7.5/10, because they can allow attackers to execute malicious SQL statements on the targeted database, potentially gaining unauthorized access to sensitive data or even taking control of the entire system.SQL injection vulnerabilities can be exploited remotely, which makes them easily accessible to attackers from anywhere on the internet. Additionally, SQL injection attacks can be automated, allowing attackers to scan for vulnerable websites and launch attacks in a large scale. 
+    \item An example of a lower scored vulnerability would be \texttt{CVE-2022-33097} (5.0/10), as it affects just one parameter and doesn't allow the attacker to gain any access to the target.\\
+    An example of a higher scored one would be \texttt{CVE-2022-34878} (9.0/10), which allows access to all data on the target system, either to destroy the data or make it otherwise unavailable, and become administrators of the database server.
+\end{enumerate}
 

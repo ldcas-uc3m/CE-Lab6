@@ -1,7 +1,7 @@
 # Lab 6: CVE and CVSS
 By Luis Daniel Casais Mezquida  
 Cybersecurity Engineering 22/23  
-Bachelor's Degree in Computer Science and Engineering, grp. 89  
+Bachelor's Degree in Computer Science and Engineering, grp. 81  
 Universidad Carlos III de Madrid
 
 ## Project statement
@@ -15,7 +15,7 @@ Consider two vulnerabilities with the following vectors:
 Discuss which one is riskier and why. Provide sound arguments supporting your choice.
 
 ### Activity 2
-Use [cvedetails.com](https://cvedetails.com) to browse through SQL injection vulnerabilities (select `Vulnerabilities by type`) for different years.
+Use [cvedetails.com](https://cvedetails.com) to browse through SQL injection vulnerabilities (select [`Vulnerabilities by type`](https://www.cvedetails.com/vulnerabilities-by-types.php)) for different years.
 1. What is the most common CVSS score for this type of vulnerability? What is the reason?
 2. Find two SQL injection vulnerabilities with a CVSS score different from the most common (one higher and one lower) and explain why the score is different in these cases.
 
